@@ -15,7 +15,6 @@ export default (function () {
         'get': async (req, res) => {
 
 
-
         },
 
         //Inserir
@@ -27,7 +26,6 @@ export default (function () {
 
         //Update
         'update': async (req, res) => {
-
 
 
         },
