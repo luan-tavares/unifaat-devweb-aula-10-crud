@@ -18,13 +18,13 @@
 
 3. Criar o arquivo `.env` na raiz do projeto copiando o .env.example:
 
-- No windows:
+   > No windows:
 
    ```ini
    copy .env.example .env
    ```
 
-- No linux
+   > No linux
 
    ```ini
    cp .env.example .env
