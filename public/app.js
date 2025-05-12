@@ -23,7 +23,7 @@ import Todo from './Todo.js';
         const res = await fetch('/api/todos');
         const data = await res.json();
 
-        data.forEach((element) => {
+        data.rows.forEach((element) => {
             const object = Todo.createFromTableItem(element);
             todoList[object.getId()] = object
         });

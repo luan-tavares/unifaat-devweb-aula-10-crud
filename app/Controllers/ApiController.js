@@ -9,7 +9,6 @@ export default (function () {
         'list': async (req, res) => {
 
 
-
         },
 
         // Buscar um por id
@@ -23,16 +22,19 @@ export default (function () {
         'insert': async (req, res) => {
 
 
+
         },
 
         //Update
         'update': async (req, res) => {
 
 
+
         },
 
         //Excluir
         'delete': async (req, res) => {
+
 
 
         },
